@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>IA</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body> 
+    
+
+<button id="returnToMain">Add Songs</button>
+
+<button id="returnToList">View Song List</button>
+
+<br>
+
+<h1>Song Editor</h1>
+
+
+<label>Song Length:</label>
+<input type="number" id="minutes" min="0" max="59" placeholder="MM" style="width: 60px"> :
+<input type="number" id="seconds" min="0" max="59" placeholder="SS" style="width: 60px">
+<button id="setLength">Set Length</button>
+
+<br>
+<label>BPM:</label>
+<input type="number" id="BPM" min="0" max="500" placeholder="BPM" style="width: 60px">
+<button id="setBPM">Set BPM</button>
+
+<br>
+<button id="editDriveLinks">Edit Drive Links</button>
+
+
+<script src="songEditor.js"></script>
